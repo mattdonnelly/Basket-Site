@@ -6,9 +6,13 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
+            $('body').fadeIn(1000);
+
             $('.slideshow img:gt(0)').hide();
-            setInterval(function(){$('.slideshow > :first-child').fadeOut(1000).next('img').fadeIn(1000).end().appendTo('.slideshow');}, 3000);
+            setInterval(function() {
+                $('.slideshow > :first-child').fadeOut(1000).next('img').fadeIn(1000).end().appendTo('.slideshow');
+            }, 3000);
         });
     </script>
 </head>

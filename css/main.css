@@ -58,6 +58,7 @@ html {
 }
 
 body {
+    display: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
