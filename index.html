@@ -3,22 +3,10 @@
     <title>Basket for iPhone: The Definitive Dribbble Client</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('body').fadeIn(1000);
-
-            $('.slideshow img:gt(0)').hide();
-            setInterval(function() {
-                $('.slideshow > :first-child').fadeOut(1000).next('img').fadeIn(1000).end().appendTo('.slideshow');
-            }, 3000);
-        });
-    </script>
 </head>
 <body>
     <div class="wrapper">
-        <div class="logo"></div>
+        <header class="logo"></header>
 
         <div id="content">
             <div class='column left'>
@@ -36,12 +24,12 @@
             <div class="column middle">
                 <div class="iphone">
                     <div class="slideshow">
-                        <img src="images/screenshot1.jpg" width="320" height="568" />
-                        <img src="images/screenshot2.jpg" width="320" height="568" />
-                        <img src="images/screenshot3.jpg" width="320" height="568" />
-                        <img src="images/screenshot4.jpg" width="320" height="568" />
-                        <img src="images/screenshot5.jpg" width="320" height="568" />
                         <img src="images/screenshot6.jpg" width="320" height="568" />
+                        <img src="images/screenshot5.jpg" width="320" height="568" />
+                        <img src="images/screenshot4.jpg" width="320" height="568" />
+                        <img src="images/screenshot3.jpg" width="320" height="568" />
+                        <img src="images/screenshot2.jpg" width="320" height="568" />
+                        <img src="images/screenshot1.jpg" width="320" height="568" />
                     </div>
                 </div>
             </div>
@@ -58,11 +46,11 @@
                 </div>
             </div>
         </div>
-        <div>
-            <a href="#" alt="Available On The App Store">
-                <div class="app_store_button"></div>
-            </a>
-        </div>
+
+        <a href="#" alt="Available On The App Store">
+            <div class="app_store_button"></div>
+        </a>
+
         <footer>
             <span class="copyright">Copyright &copy; Matt Donnelly</span>
         </footer>

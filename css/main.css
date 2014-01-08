@@ -3,53 +3,8 @@
  *  by Matt Donnelly
  */
 
-/* ----------------- BEGIN RESET ------------------ */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* ------------------ END RESET -------- ---------- */
+@import url("reset.css") screen;
+@import url("animations.css") screen;
 
 /* ---------------- BEGIN MAIN CSS ---------------- */
 
@@ -58,9 +13,12 @@ html {
 }
 
 body {
-    display: none;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    -webkit-animation: contentFadeIn 1.5s linear 1;
+       -moz-animation: contentFadeIn 1.5s linear 1;
+         -o-animation: contentFadeIn 1.5s linear 1;
+            animation: contentFadeIn 1.5s linear 1;
 }
 
 h1 {
@@ -145,6 +103,52 @@ p {
     position:absolute;
     top:0;
     left:0;
+    -webkit-animation: slideshowFade 24s ease-in-out infinite;
+       -moz-animation: slideshowFade 24s ease-in-out infinite;
+         -o-animation: slideshowFade 24s ease-in-out infinite;
+            animation: slideshowFade 24s ease-in-out infinite;
+}
+
+.slideshow img:nth-of-type(1) {
+    -webkit-animation-delay: 20s;
+       -moz-animation-delay: 20s;
+         -o-animation-delay: 20s;
+            animation-delay: 20s;
+}
+
+.slideshow img:nth-of-type(2) {
+    -webkit-animation-delay: 16s;
+       -moz-animation-delay: 16s;
+         -o-animation-delay: 16s;
+            animation-delay: 16s;
+}
+
+.slideshow img:nth-of-type(3) {
+    -webkit-animation-delay: 12s;
+       -moz-animation-delay: 12s;
+         -o-animation-delay: 12s;
+            animation-delay: 12s;
+}
+
+.slideshow img:nth-of-type(4) {
+    -webkit-animation-delay: 8s;
+       -moz-animation-delay: 8s;
+         -o-animation-delay: 8s;
+            animation-delay: 8s;
+}
+
+.slideshow img:nth-of-type(5) {
+    -webkit-animation-delay: 4s;
+       -moz-animation-delay: 4s;
+         -o-animation-delay: 4s;
+            animation-delay: 4s;
+}
+
+.slideshow img:nth-of-type(6) {
+    -webkit-animation-delay: 0s;
+       -moz-animation-delay: 0s;
+         -o-animation-delay: 0s;
+            animation-delay: 0s;
 }
 
 .app_store_button {
@@ -152,6 +156,22 @@ p {
     height: 92px;
     margin: 0 auto 60px;
     background: url(../images/app_store_button.png) 0 0 no-repeat;
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+         -o-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+       -moz-transition-property: -moz-transform;
+         -o-transition-property: -o-transform;
+            transition-property: transform;
+}
+
+.app_store_button:active {
+    -webkit-transform: scale(0.9);
+       -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+         -o-transform: scale(0.9);
+            transform: scale(0.9);
 }
 
 footer {
