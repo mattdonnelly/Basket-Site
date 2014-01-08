@@ -144,6 +144,14 @@ p {
             animation-delay: 0s;
 }
 
+.much-more {
+    margin-bottom: 50px;
+    color: #4a4a4a;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
 .app_store_button {
     width: 267px;
     height: 92px;
