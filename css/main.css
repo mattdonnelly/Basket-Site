@@ -48,7 +48,7 @@ p {
     background: url(../images/logo.png) 0 0 no-repeat;
 }
 
-#content {
+.content {
     display: block;
     margin-bottom: 50px;
 }
