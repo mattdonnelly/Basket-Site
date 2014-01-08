@@ -3,14 +3,7 @@
  *  by Matt Donnelly
  */
 
-@import url("reset.css") screen;
-@import url("animations.css") screen;
-
 /* ---------------- BEGIN MAIN CSS ---------------- */
-
-html {
-    height:100%;
-}
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
