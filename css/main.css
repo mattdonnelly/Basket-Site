@@ -25,6 +25,16 @@ p {
     line-height: 1.3;
 }
 
+::selection {
+    color: #ffffff;
+    background-color: rgb(254, 70, 124);
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background-color: rgb(254, 70, 124);
+}
+
 .wrapper {
     width: 1000px;
     margin: 0 auto;
