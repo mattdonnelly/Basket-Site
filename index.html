@@ -1,38 +1,56 @@
 <html>
 <head>
     <title>Basket for iPhone: The Definitive Dribbble Client</title>
+
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slideshow img:gt(0)').hide();
+            setInterval(function(){$('.slideshow > :first-child').fadeOut(1000).next('img').fadeIn(1000).end().appendTo('.slideshow');}, 3000);
+        });
+    </script>
 </head>
 <body>
     <div class="wrapper">
         <div class="logo"></div>
 
         <div id="content">
-            <div class='col left'>
+            <div class='column left'>
                 <div class="feature">
                     <h1>Two Viewing Modes</h1>
-                    <p>Basket offers two viewing modes for browsing shots: Grid mode for quick and easy browsing; and List mode for when you want more information on each shot</p>
+                    <p>Basket offers two viewing modes for browsing shots: Grid mode for quick and easy browsing; and List mode for when you want more information on each shot.</p>
                 </div>
 
                 <div class="feature">
                     <h1>HTML Comments</h1>
-                    <p>Tapping on any shot lets you view a complete list of the comments for that it. Basket will also parse any HTML code inside the comment allowing you to open any links it contains</p>
+                    <p>Tapping on any shot lets you view a complete list of the comments for that it. Basket will also parse any HTML code inside the comment allowing you to open any links it contains.</p>
                 </div>
             </div>
 
-            <div class="col middle">
-                <div class="iphone"></div>
+            <div class="column middle">
+                <div class="iphone">
+                    <div class="slideshow">
+                        <img src="images/screenshot1.jpg" width="320" height="568" />
+                        <img src="images/screenshot2.jpg" width="320" height="568" />
+                        <img src="images/screenshot3.jpg" width="320" height="568" />
+                        <img src="images/screenshot4.jpg" width="320" height="568" />
+                        <img src="images/screenshot5.jpg" width="320" height="568" />
+                        <img src="images/screenshot6.jpg" width="320" height="568" />
+                    </div>
+                </div>
             </div>
 
-            <div class='col right'>
+            <div class='column right'>
                 <div class="feature">
                     <h1>Browse All Your Feeds</h1>
-                    <p>With Basket you can keep up to date with all the newest shots on Dribbble. Browse shots from feeds such as popular, everyone and debuts or log in and view your personal following one</p>
+                    <p>With Basket you can keep up to date with all the newest shots on Dribbble. Browse shots from feeds such as popular, everyone and debuts or log in and view your personal following one.</p>
                 </div>
 
                 <div class="feature">
                     <h1>User Profiles</h1>
-                    <p>Tapping on any user profile picture allows you to view all the information about that user including their shots, likes, followers and followees. You can also easily view your own profile by logging in and tapping your picture in the navigation bar</p>
+                    <p>Tapping on any user profile picture allows you to view all the information about that user including their shots, likes, followers and followees. You can also easily view your own profile by logging in and tapping your picture in the navigation bar.</p>
                 </div>
             </div>
         </div>

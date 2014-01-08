@@ -94,7 +94,7 @@ p {
     margin-bottom: 50px;
 }
 
-.col {
+.column {
     display: inline-block;
     vertical-align: top;
 }
@@ -129,6 +129,21 @@ p {
     width: 387px;
     height: 803px;
     background: url(../images/iphone.png) 0 0 no-repeat;
+}
+
+.slideshow {
+    position: relative;
+    top: 116px;
+    left: 34px;
+    height: 568px;
+    width: 320px;
+    background-color: #ffffff;
+}
+
+.slideshow img {
+    position:absolute;
+    top:0;
+    left:0;
 }
 
 .app_store_button {
