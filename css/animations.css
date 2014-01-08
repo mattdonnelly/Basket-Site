@@ -1,51 +1,51 @@
 @-webkit-keyframes contentFadeIn {
-    0%   { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-moz-keyframes contentFadeIn {
-    0%   { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-o-keyframes contentFadeIn {
-    0%   { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @keyframes contentFadeIn {
-    0%   { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-webkit-keyframes slideshowFade {
-    0%   { opacity:1; }
-    13%  { opacity:1; }
-    17%  { opacity:0; }
-    96%  { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 1; }
+    13%  { opacity: 1; }
+    17%  { opacity: 0; }
+    96%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-moz-keyframes slideshowFade {
-    0%   { opacity:1; }
-    13%  { opacity:1; }
-    17%  { opacity:0; }
-    96%  { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 1; }
+    13%  { opacity: 1; }
+    17%  { opacity: 0; }
+    96%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @-o-keyframes slideshowFade {
-    0%   { opacity:1; }
-    13%  { opacity:1; }
-    17%  { opacity:0; }
-    96%  { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 1; }
+    13%  { opacity: 1; }
+    17%  { opacity: 0; }
+    96%  { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 @keyframes slideshowFade {
-    0%   { opacity:1; }
-    13%  { opacity:1; }
-    17%  { opacity:0; }
-    96%  { opacity:0; }
-    100% { opacity:1; }
+    0%   { opacity: 1; }
+    13%  { opacity: 1; }
+    17%  { opacity: 0; }
+    96%  { opacity: 0; }
+    100% { opacity: 1; }
 }

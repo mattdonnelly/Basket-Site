@@ -101,8 +101,8 @@ p {
 
 .slideshow img {
     position:absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     -webkit-animation: slideshowFade 24s ease-in-out infinite;
        -moz-animation: slideshowFade 24s ease-in-out infinite;
          -o-animation: slideshowFade 24s ease-in-out infinite;
