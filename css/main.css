@@ -128,7 +128,7 @@ p {
     margin: 0 auto;
     width: 387px;
     height: 803px;
-    background: url(../images/iphone.png) 0 0 no-repeat;
+    background: url(../images/iphone.jpg) 0 0 no-repeat;
 }
 
 .slideshow {
@@ -176,7 +176,7 @@ screen and (min-device-pixel-ratio: 1.5) {
 
     .iphone {
         background-size: 387px 803px;
-        background-image: url(../images/iphone@2x.png);
+        background-image: url(../images/iphone@2x.jpg);
     }
 
     .app_store_button {
