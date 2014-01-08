@@ -1,63 +1,80 @@
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Basket for iPhone: The Definitive Dribbble Client</title>
+    <head>
+        <title>Basket for iPhone: The Definitive Dribbble Client</title>
 
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/animations.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
-</head>
-<body>
-    <div class="wrapper">
-        <header class="logo"></header>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/animations.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-device-width: 480px)" />
 
-        <div class="content">
-            <div class='column left'>
-                <div class="feature">
-                    <h1>Two Viewing Modes</h1>
-                    <p>Basket offers two viewing modes for browsing shots: Grid mode for quick and easy browsing; and List mode for when you want more information on each shot.</p>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="logo"></header>
+
+            <div class="content">
+                <div class='column left'>
+                    <div class="feature">
+                        <h1>Two Viewing Modes</h1>
+                        <p>Basket offers two viewing modes for browsing shots: Grid mode for quick and easy browsing; and List mode for when you    want more information on each shot.</p>
+                    </div>
+
+                    <div class="feature">
+                        <h1>HTML Comments</h1>
+                        <p>Tapping on any shot lets you view a complete list of the comments for that it. Basket will also parse any HTML code  inside the comment allowing you to open any links it contains.</p>
+                    </div>
                 </div>
 
-                <div class="feature">
-                    <h1>HTML Comments</h1>
-                    <p>Tapping on any shot lets you view a complete list of the comments for that it. Basket will also parse any HTML code inside the comment allowing you to open any links it contains.</p>
+                <div class="column middle">
+                    <div class="iphone">
+                        <div class="slideshow">
+                            <img src="images/screenshot6.jpg" width="320" height="568" />
+                            <img src="images/screenshot5.jpg" width="320" height="568" />
+                            <img src="images/screenshot4.jpg" width="320" height="568" />
+                            <img src="images/screenshot3.jpg" width="320" height="568" />
+                            <img src="images/screenshot2.jpg" width="320" height="568" />
+                            <img src="images/screenshot1.jpg" width="320" height="568" />
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="column middle">
-                <div class="iphone">
-                    <div class="slideshow">
-                        <img src="images/screenshot6.jpg" width="320" height="568" />
-                        <img src="images/screenshot5.jpg" width="320" height="568" />
-                        <img src="images/screenshot4.jpg" width="320" height="568" />
-                        <img src="images/screenshot3.jpg" width="320" height="568" />
-                        <img src="images/screenshot2.jpg" width="320" height="568" />
-                        <img src="images/screenshot1.jpg" width="320" height="568" />
+                <div class='column right'>
+                    <div class="feature">
+                        <h1>Browse All Your Feeds</h1>
+                        <p>With Basket you can keep up to date with all the newest shots on Dribbble. Browse shots from feeds such as popular,  everyone and debuts or log in and view your personal following one.</p>
+                    </div>
+
+                    <div class="feature">
+                        <h1>User Profiles</h1>
+                        <p>Tapping on any user profile picture allows you to view all the information about that user including their shots,    likes, followers and followees. You can also easily view your own profile by logging in and tapping your picture in the    navigation bar.</p>
                     </div>
                 </div>
             </div>
 
-            <div class='column right'>
-                <div class="feature">
-                    <h1>Browse All Your Feeds</h1>
-                    <p>With Basket you can keep up to date with all the newest shots on Dribbble. Browse shots from feeds such as popular, everyone and debuts or log in and view your personal following one.</p>
-                </div>
+            <p class="much-more">&hellip;
+                And <i>lots</i> more!</p>
 
-                <div class="feature">
-                    <h1>User Profiles</h1>
-                    <p>Tapping on any user profile picture allows you to view all the information about that user including their shots, likes, followers and followees. You can also easily view your own profile by logging in and tapping your picture in the navigation bar.</p>
-                </div>
-            </div>
+            <a href="#" alt="Available On The App Store">
+                <div class="app_store_button"></div>
+            </a>
+
+            <footer>
+                <span class="copyright">Copyright &copy; Matt Donnelly</span>
+            </footer>
+
+            <script type="text/javascript">
+                document.write("\<script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' type='text/javascript'>\<\/script>");
+            </script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    if(window.innerWidth <= 480) {
+                        console.log( "ready!" );
+                        $('.middle').insertBefore('.left');
+                    }
+                });
+            </script>
         </div>
-
-        <p class="much-more">&hellip;And <i>lots</i> more!</p>
-
-        <a href="#" alt="Available On The App Store">
-            <div class="app_store_button"></div>
-        </a>
-
-        <footer>
-            <span class="copyright">Copyright &copy; Matt Donnelly</span>
-        </footer>
-    </div>
-</body>
+    </body>
 </html>

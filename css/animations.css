@@ -1,3 +1,8 @@
+/*
+ *  animations.css
+ *  Basket for iPhone by Matt Donnelly
+ */
+
 @-webkit-keyframes contentFadeIn {
     0%   { opacity: 0; }
     100% { opacity: 1; }

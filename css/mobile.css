@@ -1,0 +1,77 @@
+/*
+ *  mobile.css
+ *  Basket for iPhone by Matt Donnelly
+ */
+
+body {
+    -webkit-animation: none;
+       -moz-animation: none;
+         -o-animation: none;
+            animation: none;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    color: #4a4a4a;
+    font-size: 1.6em;
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+.wrapper {
+    width: 400px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 400px;
+    height: 81px;
+}
+
+.column {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.left, .right {
+    margin-top: 0;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.left .feature {
+    padding-right: 0;
+}
+
+.right .feature {
+    padding-left: 0;
+}
+
+.copyright {
+    font-size: 1.4em;
+}
+
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+    .logo {
+        background-size: 400px 81px;
+    }
+
+    .iphone {
+        background-size: 387px 803px;
+    }
+
+    .app_store_button {
+        background-size: 267px 92px;
+    }
+}

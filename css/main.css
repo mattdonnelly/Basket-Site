@@ -1,9 +1,7 @@
 /*
- *  Basket for iPhone
- *  by Matt Donnelly
+ *  main.css
+ *  Basket for iPhone by Matt Donnelly
  */
-
-/* ---------------- BEGIN MAIN CSS ---------------- */
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -185,8 +183,6 @@ footer {
     color: #bababa;
 }
 
-/* ----------------- BEIGN RETINA ----------------- */
-
 @media
 screen and (-webkit-min-device-pixel-ratio: 1.5),
 screen and (-moz-min-device-pixel-ratio: 1.5),
@@ -206,7 +202,3 @@ screen and (min-device-pixel-ratio: 1.5) {
         background-image: url(../images/app_store_button@2x.png);
     }
 }
-
-/* ------------------ END RETINA ------------------ */
-
-/* ----------------- END MAIN CSS ----------------- */
