@@ -187,6 +187,7 @@ footer {
     padding-top: 30px;
     height: 70px;
     border-top: 1px solid #dadada;
+    color: #bababa;
 }
 
 .copyright {
@@ -195,12 +196,10 @@ footer {
 
 .hosting {
     float: right;
-    color: #bababa;
     text-align: right;
 }
 
 .hosting a {
-    color: #bababa;
     font-weight: bold;
     text-decoration: none;
 }
