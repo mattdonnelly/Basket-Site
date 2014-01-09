@@ -191,28 +191,37 @@ footer {
     color: #bababa;
 }
 
-.copyright {
-    color: #bababa;
-}
-
-.hosting {
-    float: right;
-    text-align: right;
-}
-
-.hosting a {
+footer a {
     color: #bababa;
     font-weight: bold;
     text-decoration: none;
 }
 
-.hosting a:hover {
+footer a:hover {
     text-decoration: underline;
 }
 
-.hosting a:active {
+footer a:active {
     color: #bababa;
     text-decoration: none;
+}
+
+.copyright {
+    display: inline-block;
+    width: 33%;
+    color: #bababa;
+}
+
+.support {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.hosting {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
 }
 
 @media
