@@ -55,8 +55,21 @@ p {
     padding-left: 0;
 }
 
-.copyright {
+footer {
+    padding-top: 10px;
+    height: 100px;
     font-size: 1.4em;
+    line-height: 1.8;
+}
+
+.copyright {
+    display: block;
+}
+
+.hosting {
+    display: block;
+    float: none;
+    text-align: left;
 }
 
 @media

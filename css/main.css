@@ -200,12 +200,18 @@ footer {
 }
 
 .hosting a {
+    color: #bababa;
     font-weight: bold;
     text-decoration: none;
 }
 
 .hosting a:hover {
     text-decoration: underline;
+}
+
+.hosting a:active {
+    color: #bababa;
+    text-decoration: none;
 }
 
 @media
