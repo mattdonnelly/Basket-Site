@@ -38,6 +38,7 @@ p {
 .wrapper {
     width: 1000px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .logo {
@@ -71,7 +72,6 @@ p {
 
 .feature {
     display: block;
-    clear: both;
     height: 50%;
 }
 
