@@ -25,32 +25,32 @@
 
 @-webkit-keyframes slideshowFade {
     0%   { opacity: 1; }
-    13%  { opacity: 1; }
-    17%  { opacity: 0; }
+    11%  { opacity: 1; }
+    14%  { opacity: 0; }
     96%  { opacity: 0; }
     100% { opacity: 1; }
 }
 
 @-moz-keyframes slideshowFade {
     0%   { opacity: 1; }
-    13%  { opacity: 1; }
-    17%  { opacity: 0; }
+    11%  { opacity: 1; }
+    14%  { opacity: 0; }
     96%  { opacity: 0; }
     100% { opacity: 1; }
 }
 
 @-o-keyframes slideshowFade {
     0%   { opacity: 1; }
-    13%  { opacity: 1; }
-    17%  { opacity: 0; }
+    11%  { opacity: 1; }
+    14%  { opacity: 0; }
     96%  { opacity: 0; }
     100% { opacity: 1; }
 }
 
 @keyframes slideshowFade {
     0%   { opacity: 1; }
-    13%  { opacity: 1; }
-    17%  { opacity: 0; }
+    11%  { opacity: 1; }
+    14%  { opacity: 0; }
     96%  { opacity: 0; }
     100% { opacity: 1; }
 }
