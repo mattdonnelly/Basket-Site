@@ -198,7 +198,7 @@ footer {
     color: #bababa;
 }
 
-footer a {
+footer a, footer a:visited {
     color: #bababa;
     font-weight: bold;
     text-decoration: none;
@@ -206,11 +206,6 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-footer a:active {
-    color: #bababa;
-    text-decoration: none;
 }
 
 .copyright {
