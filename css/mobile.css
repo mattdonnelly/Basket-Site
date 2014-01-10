@@ -4,6 +4,7 @@
  */
 
 body {
+    -webkit-font-smoothing: subpixel-antialiased;
     -webkit-animation: none;
        -moz-animation: none;
          -o-animation: none;
@@ -57,18 +58,25 @@ p {
 
 footer {
     padding-top: 10px;
-    height: 100px;
+    height: 150px;
     font-size: 1.4em;
-    line-height: 1.8;
+    line-height: 2.0;
 }
 
 .copyright {
     display: block;
+    width: 100%;
+}
+
+.support {
+    display: block;
+    width: 100%;
+    text-align: left;
 }
 
 .hosting {
     display: block;
-    float: none;
+    width: 100%;
     text-align: left;
 }
 
